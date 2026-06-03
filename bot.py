@@ -1,4 +1,4 @@
-import asyncio
+⁵import asyncio
 import logging
 import subprocess
 from datetime import datetime, timedelta, timezone
@@ -31,12 +31,12 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-MONGODB_URI = os.getenv("MONGODB_URI")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "attack_bot")
-API_URL = os.getenv("API_URL")
-API_KEY = os.getenv("API_KEY")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "1793697840").split(",")]
+BOT_TOKEN = os.getenv("8906958640:AAFcZLUAnstFfDWAwcuAX_kHNvXPy24Onm8")
+MONGODB_URI = os.getenv("mongodb+srv://POISONBOTS12:POISONBOTS12@cluster0.b8gfuys.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = os.getenv("@lll_TG_GOD_POISON_lll", "attack_bot")
+API_URL = os.getenv("https://newsdata.io/api/1/latest")
+API_KEY = os.getenv("pub_ccf47b6e52f54eb4b75ad2d495e5b69f")
+ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "8775268410").split(",")]
 
 # Blocked ports (must match backend)
 BLOCKED_PORTS = {8700, 20000, 443, 17500, 9031, 20002, 20001}
